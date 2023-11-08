@@ -11,6 +11,9 @@ create table loja.Cliente
     Email varchar (20) not null,
     CPF char (11) not null
 );
+ALTER TABLE loja.Cliente
+ADD DataNascimento DATE NOT NULL
+
 
 create table loja.Pedido
 (
